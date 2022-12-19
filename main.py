@@ -7,9 +7,20 @@ while (i<n):
   if(aleatorio==1):
     x=x+1
     y=y+2
-    print("primera pos caballo:(",x,",","")
+    print("primera posicion caballo(",x,",",y,")")
   if(aleatorio==2):
-    if(x+1<9 and y+2<9):
+    if(x+2<9 and y+1<9):
       x= x+2
       y= y+1
-      print()
+      print("segunda posicion caballo(",x,",",y,")")
+  if(aleatorio==3):
+    if(x+2<9 and y-1<9):
+      x= x+2
+      y= y-1
+      print("tercera posicion caballo(",x,",",y,")")
+  if(aleatorio==4):
+    if(x+1<9 and y-2>0):
+      x= x+1
+      y= y-2
+      print("cuarta posicion caballo(",x,",",y,")")
+  if(aleatorio==5):
