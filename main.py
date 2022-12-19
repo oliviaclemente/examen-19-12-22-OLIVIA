@@ -1,14 +1,5 @@
-
-
-def tri(num):
-  if(num==0):
-    return 0
-  elif(num==1):
-    return 1
-  elif(num==2):
-    return 2
-  else:
-    return (tri(num-3)+tri(num-2)+ tri(num-1))
-n=int(input("Tribonacci:"))
-for n in range (0,n):
-  print(tri(n))
+def do_math():
+  lista[]
+  lista.sort
+  lista1= lista.replace("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "ñ", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z")
+return do_math
