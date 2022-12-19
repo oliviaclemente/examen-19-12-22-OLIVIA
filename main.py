@@ -1,4 +1,5 @@
-x=y=i=0
+import random
+x=y=i=aleatorio=0
 n=100
 
 while (i<n):
@@ -43,4 +44,4 @@ while (i<n):
       x= x-1
       y= y-2
       print("octava posicion caballo(",x,",",y,")")
-i += 1
+  i += 1
