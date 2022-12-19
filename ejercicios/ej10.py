@@ -11,3 +11,5 @@ def tri(num):
 n=int(input("Tribonacci:"))
 for n in range (0,n):
   print(tri(n))
+
+#he creado una funcion de fibonacci pero añadiendo mas para que fuese de tribonacci
