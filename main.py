@@ -11,5 +11,8 @@ def edad(nac):
     fecha= nac
     edad= 0
     while fecha< hoy:
-      
+      edad += 1
+      fecha = fechanac.date(año + edad, mes, dia)
+    print("Tengo",(edad-1),"años")
+edad(fechanac.date(10,03,2004))
     
