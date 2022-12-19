@@ -1,11 +1,13 @@
-def fib(n):
-  if n<3:
-    return n
-  else:
-    return fib(n-1) + fib(n-2) + fib(n-3)
-  for x in range(10):
-    print(fib(x))
-
-
-if __name__ == '__main__'  
-  fib(n)
+n= int(input("Introuzca el valor para n:"))
+primero= 0
+segundo=1
+tecero=2
+count=1
+print("Tribonacci:")
+while(count<=n):
+  print(sum)
+  count +=1
+  primero=segundo
+  segundo=tercero
+  tecero=sum
+  sum= primero + segundo + tercero
