@@ -1,16 +1,11 @@
-from datetime import date 
-from dateutil.relativedelta import relativedelta
-
-
-
-def c_e(f_n):
-  today= date.today()
-  try:
-    cumple= naci.replace(año= today.year)
-  excepy ValueError:
-    cumple= naci.replace( año = today.year)
-  if cumple > today:
-    return today.yaer - naci.year -1
+def fib(n):
+  if n<3:
+    return n
   else:
-    returm today.year - naci.year
-print(calculateEdad(date(2004, 10, 2), "years"))
+    return fib(n-1) + fib(n-2) + fib(n-3)
+  for x in range(10):
+    print(fib(x))
+
+
+if __name__ == '__main__'  
+  fib(n)
