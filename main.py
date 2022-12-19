@@ -24,3 +24,23 @@ while (i<n):
       y= y-2
       print("cuarta posicion caballo(",x,",",y,")")
   if(aleatorio==5):
+    if(x-1>0 and y+2<9):
+      x= x-1
+      y= y+2
+      print("quinta posicion caballo(",x,",",y,")")
+  if(aleatorio==6):
+     if(x-2>0 and y+1<9):
+      x= x-2
+      y= y+1
+      print("sexta posicion caballo(",x,",",y,")")
+  if(aleatorio==7):
+     if(x-2>0 and y-1>0):
+      x= x-2
+      y= y-1
+      print("septima posicion caballo(",x,",",y,")")
+  if(aleatorio==8):
+     if(x-1>0 and y-2>0):
+      x= x-1
+      y= y-2
+      print("octava posicion caballo(",x,",",y,")")
+i += 1
