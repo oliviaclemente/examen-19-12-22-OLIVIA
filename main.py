@@ -14,7 +14,9 @@ def num(numero):
   elif pd >0:
     ld= na(pd)
   if (ne <= 999):
-    res= 
+    res= lu
+  elif:
+    print("Error")
     
     
     
